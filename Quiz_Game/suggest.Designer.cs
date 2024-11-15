@@ -1,6 +1,6 @@
 ﻿namespace Quiz_Game
 {
-    partial class suggest
+    partial class Suggest
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(suggest));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Suggest));
             this.title_lbl = new System.Windows.Forms.Label();
             this.descriptions_lbl = new System.Windows.Forms.Label();
             this.subject_txt = new System.Windows.Forms.TextBox();
@@ -116,7 +116,7 @@
             this.submit_btn.TabIndex = 8;
             this.submit_btn.Text = "Submit";
             this.submit_btn.UseVisualStyleBackColor = true;
-            this.submit_btn.Click += new System.EventHandler(this.submit_btn_Click);
+            this.submit_btn.Click += new System.EventHandler(this.SubmitBtnClick);
             // 
             // suggestleft_lbl
             // 

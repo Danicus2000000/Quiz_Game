@@ -1,6 +1,6 @@
 ﻿namespace Quiz_Game
 {
-    partial class startmenu
+    partial class StartMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(startmenu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartMenu));
             this.topiclist = new System.Windows.Forms.ComboBox();
             this.title_lbl = new System.Windows.Forms.Label();
             this.startquiz_btn = new System.Windows.Forms.Button();
@@ -45,8 +45,8 @@
             this.topiclist.Size = new System.Drawing.Size(224, 21);
             this.topiclist.TabIndex = 0;
             this.topiclist.Text = "Please select a topic";
-            this.topiclist.SelectedIndexChanged += new System.EventHandler(this.topiclist_SelectedIndexChanged);
-            this.topiclist.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.topiclist_KeyPress);
+            this.topiclist.SelectedIndexChanged += new System.EventHandler(this.TopicListSelectedIndexChanged);
+            this.topiclist.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TopicListKeyPress);
             // 
             // title_lbl
             // 
@@ -73,7 +73,7 @@
             this.startquiz_btn.Text = "Start Quiz";
             this.startquiz_btn.UseVisualStyleBackColor = false;
             this.startquiz_btn.Visible = false;
-            this.startquiz_btn.Click += new System.EventHandler(this.startquiz_btn_Click);
+            this.startquiz_btn.Click += new System.EventHandler(this.StartQuizBtnClick);
             // 
             // leaderboard_btn
             // 
@@ -88,7 +88,7 @@
             this.leaderboard_btn.Text = "Leaderboard";
             this.leaderboard_btn.UseVisualStyleBackColor = false;
             this.leaderboard_btn.Visible = false;
-            this.leaderboard_btn.Click += new System.EventHandler(this.leaderboard_btn_Click);
+            this.leaderboard_btn.Click += new System.EventHandler(this.LeaderboardBtnClick);
             // 
             // suggestions_btn
             // 
@@ -101,7 +101,7 @@
             this.suggestions_btn.TabIndex = 4;
             this.suggestions_btn.Text = "Suggest a question";
             this.suggestions_btn.UseVisualStyleBackColor = false;
-            this.suggestions_btn.Click += new System.EventHandler(this.suggestions_btn_Click);
+            this.suggestions_btn.Click += new System.EventHandler(this.SuggestionsBtnClick);
             // 
             // startmenu
             // 
@@ -120,7 +120,7 @@
             this.MaximizeBox = false;
             this.Name = "startmenu";
             this.Text = "Quiz Insanity";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.startmenu_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.StartMenuFormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

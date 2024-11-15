@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Quiz_Game
+﻿namespace Quiz_Game
 {
     static class Program
     {
@@ -16,7 +10,7 @@ namespace Quiz_Game
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new startmenu());
+            Application.Run(new StartMenu());
         }
     }
 }

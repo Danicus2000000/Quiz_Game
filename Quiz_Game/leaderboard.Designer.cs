@@ -1,6 +1,6 @@
 ﻿namespace Quiz_Game
 {
-    partial class leaderboard
+    partial class Leaderboard
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(leaderboard));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Leaderboard));
             this.title_lbl = new System.Windows.Forms.Label();
             this.scores_lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -70,7 +70,7 @@
             this.MaximizeBox = false;
             this.Name = "leaderboard";
             this.Text = "leaderboard";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.leaderboard_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LeaderboardFormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

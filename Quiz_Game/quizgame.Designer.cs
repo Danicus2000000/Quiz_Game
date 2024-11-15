@@ -1,6 +1,6 @@
 ﻿namespace Quiz_Game
 {
-    partial class quizgame
+    partial class QuizGame
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(quizgame));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuizGame));
             this.question = new System.Windows.Forms.Label();
             this.Answer1 = new System.Windows.Forms.Button();
             this.Answer2 = new System.Windows.Forms.Button();
@@ -141,9 +141,9 @@
             this.MaximizeBox = false;
             this.Name = "quizgame";
             this.Text = "Quiz insanity";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.quizgame_FormClosing);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.quizgame_FormClosed);
-            this.Load += new System.EventHandler(this.quizgame_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QuizGameFormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.QuizGameFormClosed);
+            this.Load += new System.EventHandler(this.QuizGameLoad);
             this.ResumeLayout(false);
             this.PerformLayout();
 
